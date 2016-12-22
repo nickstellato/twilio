@@ -4,7 +4,7 @@ from twilio.rest import TwilioRestClient
 import ConfigParser
 
 config = ConfigParser.ConfigParser()
-config.read('config.cfg')
+config.read('example-config.cfg')
 
 def main():
 
